@@ -7,7 +7,8 @@ export const Container = styled.div`
 	align-items: center;
 	justify-content: space-between;
 	width: 100vw;
-	height: 490px;
+	height: 470px;
+	margin-top: 100px;
 `;
 
 export const Content = styled.div`
@@ -16,7 +17,7 @@ export const Content = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 50px;
+	padding-top: 30px;
 `;
 
 export const Header = styled.h1`
@@ -38,6 +39,6 @@ export const Highlight = styled.span`
 export const BackgroundImage = styled.div`
 	background: url(${img}) no-repeat;
 	background-size: cover;
-	width: 100vw;
-	height:  95px;
+	width: 360px;
+	height:  100px;
 `;

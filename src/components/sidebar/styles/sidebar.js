@@ -2,27 +2,29 @@ import styled from "styled-components";
 import img from "../assets/bg-pattern-about-1-mobile-nav-1.svg";
 
 export const Overlay = styled.div`
-	position: absolute;
+	position: fixed;
+	z-index: 98;
 	top: 0;
 	right: 0;
-	width: 100vw;
-  height: 100vh;
-  transition: background-color 0.3s ease-in-out;
+	width: 100%;
+	height: 101vh;
+	transition: background-color 0.3s ease-in-out;
 	background-color: ${({ open }) => (open ? "hsla(0, 0%, 0%, 0.5)" : "")};
 `;
 
 export const Panel = styled.div`
 	display: flex;
 	flex-direction: column;
-	position: absolute;
+	position: fixed;
 	right: 0;
 	top: 0;
-	height: 100vh;
+	height: 101vh;
 	width: 255px;
-  background-color: #2c6269;
+	background-color: #2c6269;
 	transition: transform 0.4s ease-in-out;
-  transform: translateX(100%);
+	transform: translateX(100%);
 	transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+	z-index: 98;
 
 	a {
 		text-decoration: none;

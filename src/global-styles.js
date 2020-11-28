@@ -5,7 +5,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  overflow-x: hidden;
+    overflow-x: hidden;
   }
 
   html, body {
@@ -16,6 +16,9 @@ export const GlobalStyles = createGlobalStyle`
   color: hsl(0, 0%, 100%);
   font-size: 16px;
   max-width: 100vw;
+  overflow-x: hidden;
+	touch-action: none;
+
   }
 
     `;
