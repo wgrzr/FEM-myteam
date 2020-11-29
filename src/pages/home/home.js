@@ -1,5 +1,5 @@
 import React from "react";
-import { CTA, Header, Hero } from "../../components";
+import { CTA, Header, Hero, Footer } from "../../components";
 import { Onboard, Testimonials } from "./containers";
 
 export default function Home() {
@@ -23,6 +23,7 @@ export default function Home() {
 			<Onboard />
 			<Testimonials />
 			<CTA />
+			<Footer />
 		</>
 	);
 };
