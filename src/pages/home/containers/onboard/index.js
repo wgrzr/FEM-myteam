@@ -1,7 +1,7 @@
 import React from "react";
 import {
 	Container,
-	BackgroundImageTop,
+	HeadWrap,
 	Header,
 	Marker,
 	Headline,
@@ -20,11 +20,12 @@ export default function Onboard() {
 	return (
 		<>
 			<Container>
-				<BackgroundImageTop />
-				<Header>
-					<Marker />
-					<Headline>Build & manage distributed teams like no one else.</Headline>
-				</Header>
+				<HeadWrap>
+					<Header>
+						<Marker />
+						<Headline>Build & manage distributed teams like no one else.</Headline>
+					</Header>
+				</HeadWrap>
 				<Content>
 					<Item>
 						<Icon src={person} />

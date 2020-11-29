@@ -10,19 +10,21 @@ export const Container = styled.div`
 	padding: 0 1rem;
 `;
 
-export const BackgroundImageTop = styled.div`
+// export const BackgroundImageTop = styled.div`
+// 	background-size: cover;
+// 	width: 100px;
+// 	height: 244px;
+// 	display: inline-block;
+// `;
+
+export const HeadWrap = styled.div`
 	background: url(${img}) no-repeat;
-	background-size: cover;
-	width: 100px;
-	height: 244px;
-	max-width: 100%;
-	position: absolute;
-	left: 73.5%;
-	overflow-x: hidden;
+	background-position: 157.5% 0;
+	width: 100vw;
 `;
 
 export const Header = styled.div`
-	margin: 4rem 10rem 4rem 0;
+	margin: 4rem 10rem 4rem 1.5rem;
 `;
 
 export const Marker = styled.div`
