@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Hero } from "../../components";
-import { Onboard } from "./containers";
+import { Onboard, Testimonials } from "./containers";
 
 export default function Home() {
 	return (
@@ -21,6 +21,7 @@ export default function Home() {
 				<Hero.BackgroundImage />
 			</Hero>
 			<Onboard />
+			<Testimonials />
 		</>
 	);
 };
